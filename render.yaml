@@ -1,5 +1,5 @@
 services:
-  - name: backup-db
+  - name: long-live-backup-db
     type: cron
     schedule: "0 1 1 * *"
     region: ohio
